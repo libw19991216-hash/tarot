@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 Allow: /cards/
 Allow: /info/
+
+Sitemap: https://libw19991216-hash.github.io/tarot/sitemap.xml

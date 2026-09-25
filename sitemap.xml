@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://libw19991216-hash.github.io/tarot/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://libw19991216-hash.github.io/tarot/cards/00背面.png</image:loc>
+      <image:title>无门塔罗 · 在线塔罗牌阵占卜</image:title>
+    </image:image>
+  </url>
+</urlset>
