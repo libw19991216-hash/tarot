@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="ScsJkV0tW288OQYk2BB9jI">
+<head data-page-node-id="7LCrecDtox22Zuas2YzdDb">
+<meta charset="UTF-8" data-page-node-id="OG12rc4oXbc1RAFOAfy2qx">
+<meta name="viewport" content="width=device-width,initial-scale=1" data-page-node-id="qFfIgL1CbmMew5JISvnuWk">
+<title>无门塔罗 · 在线塔罗牌阵占卜｜时间之流 / 直指问题核心 / 二选一 / 人际关系</title>
+<meta name="description" content="无门塔罗在线抽牌：完整 78 张塔罗牌库，无放回随机抽取，正逆位自动判定。支持时间之流、直指问题核心、二选一、人际关系四种经典牌阵，抽牌后即时给出各牌位牌意，可加微信详细解答。">
+<meta name="keywords" content="塔罗牌,塔罗占卜,在线塔罗,塔罗牌阵,时间之流牌阵,二选一牌阵,人际关系牌阵,直指问题核心牌阵,塔罗抽牌,塔罗牌意,正位逆位,无门塔罗">
+<meta name="author" content="无门塔罗">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#160d2e">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="无门塔罗">
+<meta property="og:title" content="无门塔罗 · 在线塔罗牌阵占卜">
+<meta property="og:description" content="78 张塔罗牌，四种经典牌阵，在线抽牌看牌意，可加微信详细解答。">
+<meta property="og:image" content="cards/00背面.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="cards/00背面.png">
+<style>
+:root{
+  --gold:#e8c878;
+  --gold-bright:#f5d993;
+  --ink:#f5ecd5;
+  --muted:#b8a8d4;
+  --line:rgba(232,200,120,.32);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  min-height:100vh;
+  background:
+    radial-gradient(ellipse 1200px 700px at 25% -10%, rgba(96,52,160,.5), transparent 60%),
+    radial-gradient(ellipse 900px 500px at 85% 110%, rgba(170,80,200,.28), transparent 60%),
+    linear-gradient(180deg,#1a0f3a 0%,#0e0721 100%);
+  color:var(--ink);
+  font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  padding:36px 20px 60px;position:relative;overflow-x:hidden;
+}
+.wrap{max-width:1140px;margin:0 auto;position:relative}
+
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(2px 2px at 8% 12%, #f5d993, transparent),
+    radial-gradient(1.2px 1.2px at 78% 18%, #b8a8d4, transparent),
+    radial-gradient(1.5px 1.5px at 42% 68%, #f5d993, transparent),
+    radial-gradient(1.2px 1.2px at 88% 76%, #b8a8d4, transparent),
+    radial-gradient(1px 1px at 22% 88%, #f5d993, transparent),
+    radial-gradient(1.5px 1.5px at 60% 32%, #b8a8d4, transparent),
+    radial-gradient(1px 1px at 15% 50%, #f5d993, transparent);
+  opacity:.7;
+}
+
+header{text-align:center;margin-bottom:20px;position:relative;z-index:1}
+.deco{display:flex;justify-content:space-between;align-items:center;max-width:340px;margin:0 auto 4px}
+.deco svg{width:30px;height:30px;opacity:.85;filter:drop-shadow(0 0 6px rgba(232,200,120,.4))}
+h1{
+  font-family:"Songti SC","STSong",Georgia,serif;
+  font-size:38px;letter-spacing:.2em;font-weight:600;
+  background:linear-gradient(180deg,#fbe9b8 0%,#e8c878 45%,#b88a3e 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 0 22px rgba(232,200,120,.25);margin-top:2px;
+}
+.sub{color:var(--muted);font-size:13px;letter-spacing:.22em;margin-top:12px}
+.rule{width:240px;height:1px;margin:16px auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.reader{
+  margin-top:14px;font-family:"Songti SC","STSong",Georgia,serif;
+  font-size:14px;letter-spacing:.26em;color:var(--gold);
+  text-shadow:0 0 14px rgba(232,200,120,.3);
+}
+.reader span{color:var(--muted);letter-spacing:.2em;margin-right:6px;font-size:12px}
+
+/* 问题输入 */
+.qbox{display:flex;justify-content:center;margin:22px 0 2px;position:relative;z-index:1}
+.qbox input{
+  width:min(600px,92%);padding:13px 18px;border-radius:12px;
+  border:1px solid var(--line);background:rgba(22,13,48,.65);
+  color:var(--ink);font-family:inherit;font-size:14px;letter-spacing:.04em;transition:.25s;
+}
+.qbox input::placeholder{color:#7d7396}
+.qbox input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(232,200,120,.12);background:rgba(28,17,60,.8)}
+
+/* 控制区 */
+.controls{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:center;margin:16px 0 4px;position:relative;z-index:1}
+select,button{
+  font-family:inherit;font-size:14px;letter-spacing:.08em;
+  padding:10px 24px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(232,200,120,.2),rgba(232,200,120,.04));
+  color:var(--gold);transition:.25s;
+}
+select{padding:10px 38px 10px 20px;background:#1d1240;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),linear-gradient(135deg,var(--gold) 50%,transparent 50%);
+  background-position:calc(100% - 16px) center,calc(100% - 11px) center;background-size:5px 5px;background-repeat:no-repeat;}
+button:hover:not(:disabled){background:rgba(232,200,120,.3);border-color:var(--gold);transform:translateY(-1px);box-shadow:0 6px 22px rgba(232,200,120,.2)}
+button:disabled{opacity:.4;cursor:default}
+button.ghost{color:var(--muted);background:transparent}
+button.ghost:hover:not(:disabled){color:var(--gold);box-shadow:none}
+.hint{text-align:center;color:var(--muted);font-size:12.5px;height:22px;letter-spacing:.1em;margin:8px 0 14px;position:relative;z-index:1}
+
+/* 牌阵 */
+.spread{
+  display:grid;gap:26px;margin:6px auto;max-width:980px;
+  grid-template-columns:repeat(var(--cols,3),1fr);position:relative;z-index:1;
+}
+.spread.layout .slot[data-ga]{grid-area:var(--ga)}
+.spread.timeline{grid-template-columns:repeat(3,1fr)}
+.spread.core{grid-template-columns:repeat(3,1fr);grid-template-rows:auto auto}
+.spread.choice{grid-template-columns:repeat(3,1fr);grid-template-rows:auto auto auto}
+.spread.relation{grid-template-columns:repeat(5,1fr);grid-template-rows:auto auto auto}
+@media(max-width:900px){
+  .spread.layout .slot[data-ga]{grid-area:auto}
+  .spread{grid-template-columns:repeat(2,1fr)!important;grid-template-rows:auto!important}
+}
+@media(max-width:480px){.spread{grid-template-columns:1fr!important}}
+
+.slot{display:flex;flex-direction:column;align-items:center;gap:7px;min-width:0}
+.pos{font-family:"Songti SC","STSong",serif;font-size:15px;color:var(--gold);letter-spacing:.18em;text-shadow:0 0 14px rgba(232,200,120,.35)}
+.pos b{color:var(--gold-bright);font-weight:600;margin-right:6px;font-size:13px;opacity:.8}
+.posdesc{font-size:11px;color:#8d83ab;text-align:center;line-height:1.5;max-width:200px;letter-spacing:.05em}
+
+.card{width:100%;max-width:210px;position:relative;perspective:1200px;cursor:pointer;
+  filter:drop-shadow(0 8px 20px rgba(0,0,0,.5))}
+.inner{position:relative;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.4,.1,.2,1)}
+.card.flipped .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;border-radius:10px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
+.face.back{background:linear-gradient(160deg,#241640,#150c26);display:flex;align-items:center;justify-content:center}
+.face.back .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .4s;z-index:2}
+.face.back .photo.ok{opacity:1}
+.face.back .placeholder{color:rgba(232,200,120,.5);font-size:11px;letter-spacing:.2em}
+.face.front{position:relative;transform:rotateY(180deg);background:#1a1233;padding:8px;display:flex;flex-direction:column}
+.face.front::after{content:'';position:absolute;inset:0;border-radius:10px;pointer-events:none;border:1px solid var(--gold)}
+.artbox{position:relative;width:100%;aspect-ratio:816/1424;border-radius:6px;overflow:hidden;background:rgba(8,5,18,.6)}
+.artbox .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .4s}
+.artbox .photo.ok{opacity:1}
+.artbox.has-photo .fallback{display:none}
+.fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:6px}
+.fallback .art-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%}
+.pips{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:5px;max-width:130px}
+.pips svg{width:22px;height:22px}
+.pips.big svg{width:66px;height:66px}
+.sym{font-size:52px;line-height:1}
+.num{font-family:"Songti SC",STSong,serif;font-size:13px;color:var(--gold);letter-spacing:.1em}
+.face.front.rev .artbox{transform:rotate(180deg)}
+.label{text-align:center;padding:5px 2px 0}
+.name{font-family:"Songti SC",STSong,serif;font-size:13.5px;color:var(--ink);letter-spacing:.05em;margin-top:4px}
+.en{font-size:9px;color:var(--muted);letter-spacing:.03em;margin-top:1px}
+.orient{display:inline-block;margin-top:5px;font-size:10px;letter-spacing:.16em;padding:1px 9px;border-radius:999px;border:1px solid var(--line);color:var(--gold)}
+.orient.rev{color:#d8a0a0;border-color:rgba(216,160,160,.4)}
+/* 二维码区块 */
+.qrblock{margin:34px auto 0;max-width:900px;text-align:center;position:relative;z-index:1}
+.qrtitle{
+  font-family:"Songti SC","STSong",Georgia,serif;font-size:15px;font-weight:600;
+  color:var(--gold);letter-spacing:.26em;margin-bottom:16px;
+  text-shadow:0 0 14px rgba(232,200,120,.35);
+}
+.qrrow{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;align-items:stretch}
+.qrcard{
+  width:200px;padding:14px 12px 16px;border:1px solid var(--line);border-radius:14px;
+  background:linear-gradient(180deg,rgba(232,200,120,.09),rgba(232,200,120,.02));
+  box-shadow:0 8px 26px rgba(0,0,0,.28);
+  display:flex;flex-direction:column;
+}
+.qrcard img{
+  width:100%;height:196px;flex:none;display:block;border-radius:8px;background:#fff;padding:5px;
+  border:1px solid rgba(0,0,0,.08);object-fit:contain;
+}
+.qrcard .cap{margin-top:11px;font-size:13px;color:var(--gold);letter-spacing:.08em;line-height:1.6}
+.qrcard .amt{font-family:"Songti SC","STSong",serif;font-size:20px;color:var(--gold-bright);margin-top:2px;letter-spacing:.03em;min-height:28px}
+.qrcard .note{margin-top:auto;padding-top:8px;font-size:11px;color:var(--muted);line-height:1.75}
+@media(max-width:480px){.qrcard{width:min(250px,86vw)}}
+
+/* 结果区 */
+.panel{
+  margin:32px auto 0;max-width:900px;border:1px solid var(--line);border-radius:14px;
+  background:linear-gradient(180deg,rgba(232,200,120,.07),rgba(232,200,120,.02));
+  padding:20px 24px;box-shadow:0 10px 36px rgba(0,0,0,.3);position:relative;z-index:1;
+}
+.panel h2{font-family:"Songti SC",STSong,serif;font-size:16px;color:var(--gold);letter-spacing:.18em;margin-bottom:12px;font-weight:600}
+.panel .qline{font-size:13.5px;color:var(--gold-bright);line-height:1.8;margin-bottom:14px;letter-spacing:.04em}
+.quick{font-size:13px;line-height:2.1;color:var(--ink);opacity:.92}
+.quick b{color:var(--gold);font-weight:600}
+
+/* 牌意列表 */
+.mlist{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:4px}
+@media(max-width:680px){.mlist{grid-template-columns:1fr}}
+.mitem{
+  border:1px solid var(--line);border-radius:11px;padding:13px 15px;
+  background:linear-gradient(180deg,rgba(232,200,120,.06),rgba(232,200,120,.015));
+  text-align:left;
+}
+.mhead{display:flex;align-items:center;gap:8px;margin-bottom:7px;flex-wrap:wrap}
+.midx{
+  width:20px;height:20px;flex:none;border-radius:50%;border:1px solid var(--line);
+  color:var(--gold);font-size:10px;display:flex;align-items:center;justify-content:center;
+}
+.mpos{font-size:11px;color:#8d83ab;letter-spacing:.14em}
+.mname{font-family:"Songti SC","STSong",serif;font-size:16px;color:var(--gold);letter-spacing:.04em}
+.morient{font-size:10px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--gold)}
+.morient.rev{color:#d8a0a0;border-color:rgba(216,160,160,.4)}
+.mkeys{font-size:12.5px;color:var(--ink);line-height:1.85;letter-spacing:.02em}
+.mmsg{font-size:11.5px;color:var(--muted);line-height:1.8;margin-top:6px}
+.mdiv{height:1px;background:linear-gradient(90deg,var(--line),transparent);margin:8px 0}
+.men{font-size:10px;color:#7d7396;letter-spacing:.03em}
+
+/* SEO 文案 */
+.seo{max-width:900px;margin:48px auto 0;text-align:left;position:relative;z-index:1;
+  border-top:1px solid var(--line);padding-top:26px}
+.seo h2{font-family:"Songti SC","STSong",serif;font-size:17px;color:var(--gold);letter-spacing:.14em;margin-bottom:14px;font-weight:600}
+.seo h3{font-family:"Songti SC","STSong",serif;font-size:14px;color:var(--gold);letter-spacing:.1em;margin:22px 0 8px;font-weight:600}
+.seo p{font-size:13px;line-height:2.05;color:var(--muted);margin-bottom:10px}
+.seo ul{margin:0 0 10px 20px}
+.seo li{font-size:13px;line-height:2;color:var(--muted)}
+.seo b{color:var(--ink);font-weight:600}
+
+footer{text-align:center;color:#7a6f96;font-size:11.5px;margin-top:44px;letter-spacing:.1em;line-height:1.9;position:relative;z-index:1}
+</style>
+</head>
+<body data-page-node-id="G6aE8IvSe3zfIHEq8RvlZo">
+<div class="wrap" data-page-node-id="mdFGrTTimO3w3TUXoxKChf">
+  <header data-page-node-id="WCCQvBYd05KlBTOjtFGF8J">
+    <div class="deco" data-page-node-id="hGa17ybICntH2A1IGfPXVB">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#e8c878" stroke-width="1.2" stroke-linejoin="round" data-page-node-id="WFWc6P4iGhYcTUTYYfGf9U">
+        <path d="M20 14a8 8 0 1 1-8-10 6.5 6.5 0 0 0 8 10z" data-page-node-id="bEtwuQGi7puTbszlMhdhBN"/>
+      </svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#e8c878" stroke-width="1.2" stroke-linejoin="round" data-page-node-id="FZNRTAXbD07ofz4St4N4EL">
+        <polygon points="12,2 14.6,8.6 22,9.2 16.3,13.8 18,21 12,17 6,21 7.7,13.8 2,9.2 9.4,8.6" data-page-node-id="HgogbisvG9GKSw18xqATaz"/>
+      </svg>
+    </div>
+    <h1 data-page-node-id="BoDFYCe6sEA08MsBQzDkYk">塔 罗 占 卜</h1>
+    <div class="sub" data-page-node-id="qCLpGSXXdC55LSDXtYieFZ">78 张 · 无放回 · 正逆位随机</div>
+    <div class="rule" data-page-node-id="f3aqqBEWxMaTbcCzQ8TLbB"></div>
+    <div class="reader"><span>塔罗师</span>无 门 塔 罗</div>
+  </header>
+
+  <div class="qbox" data-page-node-id="GCGkjmMDZ8QEvBtFwN92An">
+    <input id="question" type="text" maxlength="120" placeholder="写下你的问题（选填，例如：这份工作该不该换？）" data-page-node-id="m3p0YJI4DsIDdhPRVKQfHl">
+  </div>
+
+  <div class="controls" data-page-node-id="b1Y1plIxX1KsJXlXqernbm">
+    <select id="spreadSel" data-page-node-id="Ja9zA5VG73ztaUm0i5UhVM"></select>
+    <button id="draw" data-page-node-id="hiZJ5GRP1y1vBjlvHd0bk4">洗 牌 抽 牌</button>
+    <button id="flipall" class="ghost" disabled data-page-node-id="Hd6Ic3mkCBELQGzmVpPXFO">全部翻开</button>
+    <button id="copy" class="ghost" disabled data-page-node-id="PKq8dq8lctIKLFKsSfpssg">复制结果</button>
+  </div>
+  <div class="hint" id="hint" data-page-node-id="Rt4IS38bHDg4NmAJlzxi6K">写下问题，选择牌阵，然后点击「洗牌抽牌」</div>
+
+  <div class="spread" id="spread" data-page-node-id="8Vb0jDyuEkuEghDA4eFVYl"></div>
+
+  <!-- 抽牌后：本次牌阵对应金额的收款码 → 个人微信二维码 -->
+  <div class="qrblock" id="pay" hidden>
+    <div class="qrtitle">支 付 与 咨 询</div>
+    <div class="qrrow" id="payRow"></div>
+  </div>
+
+  <!-- 抽牌后：牌意 -->
+  <div class="panel" id="summary" hidden data-page-node-id="nwA54Hwks7Y0Q5sgq6QeQ7"></div>
+
+  <!-- 常驻底部：随意打赏收款码 → 个人微信二维码 -->
+  <div class="qrblock" id="bottomPay">
+    <div class="qrtitle">支 持 与 联 系</div>
+    <div class="qrrow">
+      <div class="qrcard">
+        <img src="info/收款码.jpg" alt="随意打赏收款码">
+        <div class="cap">随 意 打 赏</div>
+        <div class="amt">&nbsp;</div>
+        <div class="note">金额随意，感谢支持</div>
+      </div>
+      <div class="qrcard">
+        <img src="info/微信二维码.jpg" alt="个人微信二维码">
+        <div class="cap">加 好 友</div>
+        <div class="amt">&nbsp;</div>
+        <div class="note">加好友进行详细解答牌</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="seo">
+    <h2>关于无门塔罗 · 在线塔罗占卜</h2>
+    <p><b>无门塔罗</b>提供在线塔罗牌占卜服务：完整 78 张塔罗牌库，洗牌后无放回随机抽牌，正位与逆位自动判定，抽牌后即时给出每个牌位的牌意。无需下载 App，打开网页即可抽牌。</p>
+
+    <h3>四种经典牌阵</h3>
+    <ul>
+      <li><b>时间之流（3 张）</b>——过去 · 现在 · 未来，看一件事的来龙去脉与走向，适合问"这件事会怎么发展"。</li>
+      <li><b>直指问题核心（4 张）</b>——问题核心 · 阻碍 · 对策 · 优势，把卡住的地方拆开看，适合问"我到底卡在哪"。</li>
+      <li><b>二选一（5 张）</b>——当下状态 · A 的发展与结果 · B 的发展与结果，适合"该选哪个"的抉择。</li>
+      <li><b>人际关系（6 张）</b>——对方的心态 · 过去 · 现在 · 环境 · 未来 · 我的心态，看两个人之间的真实状态。</li>
+    </ul>
+
+    <h3>关于塔罗牌</h3>
+    <p>一副标准塔罗牌共 <b>78 张</b>，分为 <b>22 张大阿尔卡纳</b>（愚人、魔术师、女祭司……世界，代表人生层面的大议题）与 <b>56 张小阿尔卡纳</b>（权杖、圣杯、宝剑、星币四组各 14 张，对应火、水、风、土四种元素，描述日常具体的处境）。每张牌都有正位与逆位两种读法：正位是能量的顺畅表达，逆位则提示阻塞、内化或需要调整的部分。</p>
+
+    <h3>常见问题</h3>
+    <ul>
+      <li><b>抽牌是随机的吗？</b>是。每次洗牌从 78 张中无放回抽取，同一牌阵内不会抽到重复的牌。</li>
+      <li><b>为什么会有逆位？</b>塔罗传统中约三成概率出现逆位，代表该牌能量的阻滞或转向。</li>
+      <li><b>需要先想好问题吗？</b>建议先写下来。带着具体问题抽牌，牌面与牌位的对应会更清晰。</li>
+      <li><b>想聊得更细？</b>抽完牌后扫码加微信，把问题和牌面发过来即可得到详细解答。</li>
+    </ul>
+  </section>
+
+  <footer data-page-node-id="ybOgzpG3ruYAmMTIUSRVDT">塔罗师：无门塔罗 · 牌图与解读仅供参考</footer>
+</div>
+
+<script>
+/* ============ 配置 ============ */
+const IMG = { dir:'cards/', back:'cards/00背面.png', enabled:true };
+
+/* ============ 图片文件名映射 ============ */
+const MAJOR_IMG = [
+  '0愚人.jpg','1魔术师.jpg','2女祭司.jpg','3女皇.jpg','4皇帝.jpg','5教皇.jpg',
+  '6恋人.jpg','7战车.jpg','8力量.jpg','9隐者.jpg','10命运之轮.jpg','11正义.jpg',
+  '12吊人.jpg','13死神.jpg','14节制.jpg','15恶魔.jpg','16高塔.jpg','17星星.jpg',
+  '18月亮.jpg','19太阳.jpg','20审判.jpg','21世界.jpg'
+];
+const SUIT_CN = {wands:'权杖', cups:'圣杯', swords:'宝剑', pentacles:'星币'};
+const RANK_SUFFIX = {1:'1',2:'2',3:'3',4:'4',5:'5',6:'6',7:'7',8:'8',9:'9',10:'10',11:'侍从',12:'骑士',13:'王后',14:'国王'};
+function minorImg(suit, rank){
+  if(suit==='pentacles' && rank===11) return '侍从星币.jpg';
+  return SUIT_CN[suit] + RANK_SUFFIX[rank] + '.jpg';
+}
+
+/* ============ 花色图形（无图时回退） ============ */
+const SUIT_ART = {
+  wands:'<svg viewBox="0 0 24 24" fill="none" stroke="#d9b45b" stroke-width="1.5" stroke-linecap="round"><path d="M12 22V4"/><path d="M12 4a2 2 0 1 0 .01 0"/><path d="M8 12l4-1 4 1"/><path d="M9 18l3-1 3 1"/></svg>',
+  cups:'<svg viewBox="0 0 24 24" fill="none" stroke="#d9b45b" stroke-width="1.5" stroke-linejoin="round"><path d="M5 6h14v5a7 7 0 0 1-14 0z"/><path d="M12 18v3"/><path d="M8 21h8"/></svg>',
+  swords:'<svg viewBox="0 0 24 24" fill="none" stroke="#d9b45b" stroke-width="1.5" stroke-linejoin="round"><path d="M12 2l2 4v11h-4V6z"/><path d="M6 17h12"/><path d="M12 17v5"/></svg>',
+  pentacles:'<svg viewBox="0 0 24 24" fill="none" stroke="#d9b45b" stroke-width="1.4" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 6l1.8 3.9 4.2.5-3.1 2.9.8 4.2-3.7-2.1-3.7 2.1.8-4.2L6 10.4l4.2-.5z"/></svg>'
+};
+
+/* ============ 大阿尔卡纳 ============ */
+const MAJOR = [
+ ["0","愚人","The Fool","🃏","新的开始 · 冒险 · 自由 · 天真","鲁莽 · 犹豫 · 准备不足","踏出那一步，未知本身就是路。"],
+ ["I","魔术师","The Magician","🪄","创造力 · 行动力 · 资源 · 专注","欺骗 · 能力未发挥 · 拖延","你需要的工具已经在手上了。"],
+ ["II","女祭司","The High Priestess","🌙","直觉 · 潜意识 · 静观 · 神秘","忽视直觉 · 秘密外泄 · 浮躁","答案在安静里，不在喧哗里。"],
+ ["III","皇后","The Empress","🌾","丰饶 · 滋养 · 孕育 · 感官","依赖 · 过度保护 · 创意停滞","让事情自然生长，别催它。"],
+ ["IV","皇帝","The Emperor","🏛️","权威 · 秩序 · 结构 · 责任","专制 · 固执 · 失控","先立规矩，再谈自由。"],
+ ["V","教皇","The Hierophant","🗝️","传统 · 信仰 · 指引 · 传承","墨守成规 · 教条 · 叛逆","找个过来人问问，不丢人。"],
+ ["VI","恋人","The Lovers","💞","结合 · 选择 · 价值观 · 爱","失衡 · 错误选择 · 分歧","这不是选哪个，是选成为谁。"],
+ ["VII","战车","The Chariot","🛡️","前进 · 意志 · 胜利 · 掌控","方向不明 · 冲动 · 受阻","把缰绳攥紧，但别勒死马。"],
+ ["VIII","力量","Strength","🦁","勇气 · 柔韧 · 耐心 · 内在力量","自我怀疑 · 暴躁 · 软弱","真正的强，是温柔地坚持。"],
+ ["IX","隐者","The Hermit","🏮","内省 · 独处 · 智慧 · 探寻","孤立 · 逃避 · 固执","先点亮自己那盏灯。"],
+ ["X","命运之轮","Wheel of Fortune","☸️","转机 · 循环 · 时机 · 命运","厄运 · 停滞 · 抗拒变化","轮子一直在转，别抓着辐条不放。"],
+ ["XI","正义","Justice","⚖️","公平 · 真相 · 责任 · 平衡","偏颇 · 不公 · 逃避责任","因果不虚，承担即自由。"],
+ ["XII","倒吊人","The Hanged Man","🙃","换位 · 等待 · 牺牲 · 顿悟","无谓牺牲 · 拖延 · 僵局","倒过来看看，世界会不一样。"],
+ ["XIII","死神","Death","💀","终结 · 转化 · 重生 · 放下","抗拒改变 · 停滞 · 拖着不放","结束不是失败，是腾地方。"],
+ ["XIV","节制","Temperance","🏺","调和 · 平衡 · 耐心 · 中庸","失衡 · 极端 · 急躁","慢一点，比例对了就成了。"],
+ ["XV","恶魔","The Devil","⛓️","欲望 · 束缚 · 执着 · 阴影","解脱 · 觉醒 · 挣脱","链子是虚掩的，你随时能走。"],
+ ["XVI","塔","The Tower","🗼","崩塌 · 突变 · 觉醒 · 破除","延迟的危机 · 勉强维持","假的塌了，真的才站得住。"],
+ ["XVII","星星","The Star","⭐","希望 · 治愈 · 灵感 · 指引","失望 · 失去信心 · 迷茫","最暗的时候，星才看得清。"],
+ ["XVIII","月亮","The Moon","🌛","幻象 · 潜意识 · 不安 · 暧昧","真相浮现 · 走出迷惑","别急着信眼睛看到的东西。"],
+ ["XIX","太阳","The Sun","☀️","喜悦 · 成功 · 光明 · 活力","暂时的阴霾 · 过度乐观","该你晒太阳了，别躲。"],
+ ["XX","审判","Judgement","📯","觉醒 · 召唤 · 清算 · 重生","自我批判 · 逃避 · 迟疑","号角响了，回应它。"],
+ ["XXI","世界","The World","🌍","完成 · 圆满 · 整合 · 归宿","未竟 · 延迟 · 缺个闭环","走完这一圈，再开下一圈。"]
+];
+
+/* ============ 小阿尔卡纳 ============ */
+const MINOR = {
+  wands:{
+    1:["灵感起点 · 新机会 · 冲劲","延误 · 动力不足 · 错失","火苗已起，别让它灭在犹豫里。"],
+    2:["规划 · 抉择 · 起步","犹豫不决 · 计划受阻","世界很大，先定第一个落脚点。"],
+    3:["拓展 · 远见 · 进展","延迟 · 目光短浅","把格局放大一档，路就宽了。"],
+    4:["庆祝 · 稳定 · 归属","根基不稳 · 临时的安稳","值得停一下，庆祝阶段性的事。"],
+    5:["竞争 · 冲突 · 磨合","内耗 · 回避冲突","有摩擦说明都在用力，未必是坏事。"],
+    6:["胜利 · 认可 · 好消息","自负 · 迟来的认可","该被看见的，正在被看见。"],
+    7:["坚守 · 挑战 · 防御","不堪重负 · 退让","站在高处的人，风自然大。"],
+    8:["迅速 · 行动 · 消息","急躁 · 混乱 · 拖延","快是好事，方向对才算数。"],
+    9:["韧性 · 防御 · 最后考验","疲惫 · 固执 · 过度戒备","再撑一下，这道坎快过去了。"],
+    10:["重担 · 责任 · 压力","卸下重担 · 崩溃边缘","别一个人扛完所有。"],
+    11:["热情 · 探索 · 新消息","三分钟热度 · 稚嫩","新鲜劲儿是燃料，不是路线图。"],
+    12:["冲劲 · 出发 · 魅力","鲁莽 · 半途而废","想清楚了再冲，也来得及。"],
+    13:["自信 · 感染力 · 主导","嫉妒 · 专横 · 耗尽","你发光的时候，别烧到自己。"],
+    14:["领导 · 远见 · 决断","独断 · 急躁 · 虚张","拍板是本事，听劝也是。"]
+  },
+  cups:{
+    1:["情感涌现 · 新恋情 · 灵感","情感封闭 · 失落","心口开了个口子，让它流。"],
+    2:["结合 · 伙伴 · 互相吸引","失衡 · 误会 · 疏离","好的关系，是两个人都愿意。"],
+    3:["友谊 · 欢庆 · 社群","八卦 · 过度沉溺 · 疏离","此刻值得有人一起分享。"],
+    4:["倦怠 · 冷淡 · 自省","重新振作 · 走出低潮","厌倦是信号，不是终点。"],
+    5:["失落 · 遗憾 · 放下","接纳 · 疗愈 · 看见剩余","别只盯着洒了的那一半。"],
+    6:["回忆 · 纯真 · 旧识","困于过去 · 怀旧","回头看可以，别往回走。"],
+    7:["幻想 · 选择 · 诱惑","看清幻象 · 犹豫","选项太多时，问自己要什么。"],
+    8:["离开 · 放下 · 寻找意义","徘徊 · 害怕改变","主动走开，比被赶走体面。"],
+    9:["满足 · 愿望成真 · 享受","空虚 · 贪求 · 表面满足","许个愿，也允许它成真。"],
+    10:["圆满 · 家庭和睦 · 和谐","貌合神离 · 家庭摩擦","幸福长在细节里，别嫌小。"],
+    11:["敏感 · 直觉 · 告白","不成熟 · 逃避 · 情绪化","心里的话，说出来才有回音。"],
+    12:["浪漫 · 邀请 · 追求","不切实际 · 善变","心动值得，落地更值得。"],
+    13:["共情 · 温柔 · 包容","情绪淹没 · 过度牺牲","先接住自己，再接住别人。"],
+    14:["情感成熟 · 体贴 · 自持","压抑 · 操控 · 冷漠","温柔而有边界，才走得远。"]
+  },
+  swords:{
+    1:["突破 · 清晰 · 洞见","混乱 · 判断失误","一刀切开迷雾，别切到自己。"],
+    2:["僵持 · 回避 · 两难","决断 · 真相揭开","不选，也是一种选择，代价更高。"],
+    3:["心碎 · 伤痛 · 真相","疗愈 · 放下伤痛","痛是真的，但它会过去。"],
+    4:["休养 · 退隐 · 恢复","被迫停歇 · 勉强复工","休息不是退步。"],
+    5:["争胜 · 冲突 · 得失","和解 · 余波 · 内疚","赢了道理，输了关系，值吗？"],
+    6:["过渡 · 离开 · 理清","滞留 · 无法放下","换个水面，风就顺了。"],
+    7:["策略 · 隐瞒 · 独自行动","被识破 · 良心不安","聪明要用在正地方。"],
+    8:["受限 · 自我设限 · 困境","解脱 · 看清束缚","绳子多半是自己绑的。"],
+    9:["焦虑 · 噩梦 · 担忧","走出焦虑 · 寻求帮助","半夜想到的，白天往往没那么糟。"],
+    10:["终结 · 谷底 · 背叛","复原 · 触底反弹","到底了，接下来都是上坡。"],
+    11:["好奇 · 警觉 · 探听","多疑 · 口无遮拦","多问一句，少信一半。"],
+    12:["果断 · 冲刺 · 直言","冒进 · 伤人 · 鲁莽","话是刀，出鞘前想好。"],
+    13:["理性 · 洞悉 · 独立","刻薄 · 冷酷 · 过度防备","清醒不等于冷淡。"],
+    14:["权威判断 · 公正 · 清晰","专断 · 冷酷 · 滥用逻辑","讲理的人，也要留三分情。"]
+  },
+  pentacles:{
+    1:["机会 · 财富起点 · 务实","错过 · 贪婪 · 不稳","一颗种子够了，别嫌它小。"],
+    2:["平衡 · 周旋 · 灵活","失衡 · 顾此失彼","杂耍可以，别一直杂耍。"],
+    3:["协作 · 技能 · 初步成果","配合不良 · 敷衍","专业的事，交给专业的人。"],
+    4:["守财 · 稳定 · 掌控","松手 · 失去保障 · 吝啬","安全感要有，牢笼不必。"],
+    5:["匮乏 · 困顿 · 被排除","走出困境 · 寻求帮助","冷的时候，去有人的地方。"],
+    6:["给予 · 分享 · 援助","施舍不均 · 依赖 · 带条件","给得起，也接得住，才叫流动。"],
+    7:["耐心 · 评估 · 长期投入","急功近利 · 徒劳","慢的钱，才留得住。"],
+    8:["精进 · 学习 · 打磨","敷衍 · 重复 · 缺乏专注","手艺是磨出来的，没有捷径。"],
+    9:["自立 · 丰盛 · 收获","过度依赖 · 虚荣","你种的，正在结果。"],
+    10:["富足 · 家族 · 长久","家产纠纷 · 短视","真正的富，是能传下去的。"],
+    11:["学习 · 务实 · 新机会","懈怠 · 眼高手低","从最基础的做起，不丢份。"],
+    12:["稳健 · 可靠 · 坚持","固执 · 沉闷 · 停滞","慢，但一直在动。"],
+    13:["务实 · 滋养 · 安稳","过度操劳 · 物质焦虑","把日子过扎实，就是本事。"],
+    14:["富足 · 事业稳固 · 掌控","贪婪 · 僵化 · 失衡","站在实地上的人，说话最硬气。"]
+  }
+};
+const SUIT_META={wands:{cn:"权杖",en:"Wands",el:"火"},cups:{cn:"圣杯",en:"Cups",el:"水"},
+  swords:{cn:"宝剑",en:"Swords",el:"风"},pentacles:{cn:"星币",en:"Pentacles",el:"土"}};
+const RANKS={1:"一",2:"二",3:"三",4:"四",5:"五",6:"六",7:"七",8:"八",9:"九",10:"十",11:"侍从",12:"骑士",13:"王后",14:"国王"};
+const RANK_EN={1:"Ace",2:"Two",3:"Three",4:"Four",5:"Five",6:"Six",7:"Seven",8:"Eight",9:"Nine",10:"Ten",11:"Page",12:"Knight",13:"Queen",14:"King"};
+
+/* ============ 构建牌库 ============ */
+const DECK=[];
+MAJOR.forEach((m,i)=>{
+  DECK.push({id:"M"+i,arcana:"major",roman:m[0],cn:m[1],en:m[2],emoji:m[3],up:m[4],rev:m[5],msg:m[6],
+    img:IMG.dir+MAJOR_IMG[i]});
+});
+Object.keys(SUIT_META).forEach(s=>{
+  const meta=SUIT_META[s];
+  for(let r=1;r<=14;r++){
+    const k=MINOR[s][r];
+    DECK.push({id:s+r,arcana:"minor",suit:s,rank:r,cn:meta.cn+RANKS[r],en:RANK_EN[r]+" of "+meta.en,
+      el:meta.el,up:k[0],rev:k[1],msg:k[2],img:IMG.dir+minorImg(s,r)});
+  }
+});
+
+/* ============ 牌阵（四个参考牌阵） ============
+   pos.ga   → 摆放位置（grid-area）
+   pos.lead → 解读句式，{c} 会替换成牌名
+=============================================== */
+const SPREADS={
+  timeline:{name:"时间之流（3张）",price:"19.9",pay:"info/19.9.jpg",layout:"timeline",cols:3,colsMd:3,pos:[
+    {t:"过去",d:"事情的根源",lead:"事情的根在 {c}"},
+    {t:"现在",d:"当下的处境",lead:"此刻你站在 {c}"},
+    {t:"未来",d:"顺此发展的走向",lead:"再往下走是 {c}"}
+  ]},
+  core:{name:"直指问题核心（4张）",price:"39.9",pay:"info/39.9.jpg",layout:"core",cols:3,colsMd:2,pos:[
+    {t:"问题核心",d:"最核心的矛盾",ga:"1/2/1/2",lead:"问题的核心是 {c}"},
+    {t:"阻碍",d:"挡在前面的力量",ga:"2/1/2/1",lead:"挡在你面前的是 {c}"},
+    {t:"对策",d:"可采取的行动",ga:"2/2/2/2",lead:"牌给出的办法是 {c}"},
+    {t:"优势",d:"你能借用的资源",ga:"2/3/2/3",lead:"你手里没用上的牌是 {c}"}
+  ]},
+  choice:{name:"二选一（5张）",price:"56.6",pay:"info/56.6.jpg",layout:"choice",cols:3,colsMd:2,pos:[
+    {t:"选A的结果",d:"选 A 的结局",ga:"1/1/1/1",lead:"选 A 走到最后是 {c}"},
+    {t:"选B的结果",d:"选 B 的结局",ga:"1/3/1/3",lead:"选 B 走到最后是 {c}"},
+    {t:"选A的发展",d:"选 A 的过程",ga:"2/1/2/1",lead:"选 A 的过程是 {c}"},
+    {t:"选B的发展",d:"选 B 的过程",ga:"2/3/2/3",lead:"选 B 的过程是 {c}"},
+    {t:"当下状态",d:"你此刻的位置",ga:"3/2/3/2",lead:"你现在站在 {c}"}
+  ]},
+  relation:{name:"人际关系（6张）",price:"79.9",pay:"info/79.9.jpg",layout:"relation",cols:5,colsMd:2,pos:[
+    {t:"对方的心态",d:"对方心里在想什么",ga:"1/2/1/4",lead:"对方心里是 {c}"},
+    {t:"过去",d:"共同的过去",ga:"2/1/2/1",lead:"你们之间发生过 {c}"},
+    {t:"现在",d:"当下的状态",ga:"2/2/2/2",lead:"现在的状态是 {c}"},
+    {t:"环境",d:"外部的影响",ga:"2/3/2/3",lead:"围着你们的外界是 {c}"},
+    {t:"未来",d:"关系的走向",ga:"2/4/2/4",lead:"再往下会是 {c}"},
+    {t:"我的心态",d:"你真实的心境",ga:"3/2/3/4",lead:"你自己的心是 {c}"}
+  ]}
+};
+
+/* ============ DOM ============ */
+const spreadEl=document.getElementById('spread');
+const selEl=document.getElementById('spreadSel');
+const qEl=document.getElementById('question');
+const hintEl=document.getElementById('hint');
+const summaryEl=document.getElementById('summary');
+const payEl=document.getElementById('pay');
+const payRowEl=document.getElementById('payRow');
+const drawBtn=document.getElementById('draw');
+const flipBtn=document.getElementById('flipall');
+const copyBtn=document.getElementById('copy');
+
+let current=[],curKey='timeline';
+
+Object.keys(SPREADS).forEach(k=>{
+  const o=document.createElement('option');
+  o.value=k;o.textContent=SPREADS[k].name;
+  if(k==='timeline')o.selected=true;
+  selEl.appendChild(o);
+});
+
+/* ============ 渲染牌面 ============ */
+function fallbackArt(card){
+  if(card.arcana==='major'){
+    return `<div class="art-inner"><div class="sym">${card.emoji}</div><div class="num">${card.roman}</div></div>`;
+  }
+  const svg=SUIT_ART[card.suit];
+  if(card.rank===1) return `<div class="art-inner"><div class="pips big">${svg}</div></div>`;
+  if(card.rank<=10){
+    let p='';for(let i=0;i<card.rank;i++)p+=svg;
+    return `<div class="art-inner"><div class="pips">${p}</div></div>`;
+  }
+  const face={11:"🧒",12:"🐎",13:"👑",14:"🤴"}[card.rank];
+  return `<div class="art-inner"><div class="sym" style="font-size:42px">${face}</div>
+    <div class="pips">${svg}</div><div class="num">${RANKS[card.rank]}</div></div>`;
+}
+
+function cardHTML(card,i,rev,pos){
+  const ga = pos.ga ? ` data-ga="${pos.ga}" style="--ga:${pos.ga}"` : '';
+  const frontPhoto = IMG.enabled ? `<img class="photo" src="${card.img}" alt="${card.cn}" loading="eager">` : '';
+  const backPhoto  = IMG.enabled ? `<img class="photo" src="${IMG.back}" alt="">` : '';
+  return `
+  <div class="slot"${ga}>
+    <div class="pos"><b>${i+1}</b>${pos.t}</div>
+    <div class="posdesc">${pos.d}</div>
+    <div class="card" data-i="${i}">
+      <div class="inner">
+        <div class="face back">
+          ${backPhoto}
+          <span class="placeholder">塔 罗</span>
+        </div>
+        <div class="face front ${rev?'rev':''}">
+          <div class="artbox">
+            <div class="fallback">${fallbackArt(card)}</div>
+            ${frontPhoto}
+          </div>
+          <div class="label">
+            <div class="name">${card.cn}</div>
+            <div class="en">${card.en}</div>
+            <span class="orient ${rev?'rev':''}">${rev?'逆 位':'正 位'}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function bindPhotos(){
+  spreadEl.querySelectorAll('img.photo').forEach(img=>{
+    const ok=()=>{
+      if(img.naturalWidth>0){
+        img.classList.add('ok');
+        const p=img.closest('.artbox,.face.back');
+        if(p)p.classList.add('has-photo');
+      }
+    };
+    const bad=()=>{img.remove();};
+    if(img.complete){ img.naturalWidth>0?ok():bad(); }
+    else{ img.addEventListener('load',ok); img.addEventListener('error',bad); }
+  });
+}
+
+/* ============ 问题 ============ */
+function getQuestion(){
+  return (qEl.value||'').trim();
+}
+
+/* ============ 收款码 / 微信二维码 ============ */
+const PAY={ wechat:'info/微信二维码.jpg', donate:'info/收款码.jpg' };
+
+function qrCard(img,cap,amt,note){
+  return `<div class="qrcard">
+      <img src="${img}" alt="${cap.replace(/\s/g,'')}">
+      <div class="cap">${cap}</div>
+      <div class="amt">${amt?`¥ ${amt}`:'&nbsp;'}</div>
+      <div class="note">${note}</div>
+    </div>`;
+}
+
+function renderPay(){
+  if(!current.length) return;
+  const sp=SPREADS[curKey];
+  payRowEl.innerHTML =
+      qrCard(sp.pay, sp.name, sp.price, '扫码支付本次牌阵解读费用')
+    + qrCard(PAY.wechat, '加 好 友', '', '加好友进行详细解答牌');
+  payEl.hidden=false;
+}
+
+function renderSummary(){
+  const sp=SPREADS[curKey], q=getQuestion();
+  const items=current.map((p,i)=>{
+    const c=p.card;
+    const isRev=p.rev;
+    return `<div class="mitem">
+      <div class="mhead">
+        <span class="midx">${i+1}</span>
+        <span class="mpos">${sp.pos[i].t}</span>
+        <span class="mname">${c.cn}</span>
+        <span class="morient${isRev?' rev':''}">${isRev?'逆 位':'正 位'}</span>
+      </div>
+      <div class="mkeys">${isRev?c.rev:c.up}</div>
+      <div class="mdiv"></div>
+      <div class="mmsg">${c.msg}</div>
+      <div class="men">${c.en}${c.arcana==='major'?' · 大阿尔卡纳':' · '+c.el+'元素'}</div>
+    </div>`;
+  }).join('');
+  summaryEl.innerHTML=`<h2>牌 意</h2>`
+    + (q?`<div class="qline">你的问题：${q}</div>`:'')
+    + `<div class="mlist">${items}</div>`;
+  summaryEl.hidden=false;
+}
+
+/* ============ 抽牌 ============ */
+function draw(){
+  const sp=SPREADS[curKey];
+  const pool=[...DECK],picked=[];
+  for(let i=0;i<sp.pos.length;i++){
+    picked.push(pool.splice(Math.floor(Math.random()*pool.length),1)[0]);
+  }
+  current=picked.map(c=>({card:c,rev:Math.random()<0.32}));
+  render();
+}
+
+function render(){
+  const sp=SPREADS[curKey];
+  const cls=['spread'];
+  if(sp.layout) cls.push(sp.layout,'layout');
+  spreadEl.className=cls.join(' ');
+  spreadEl.style.setProperty('--cols',sp.cols);
+  spreadEl.style.setProperty('--cols-md',sp.colsMd);
+  spreadEl.innerHTML=current.map((p,i)=>cardHTML(p.card,i,p.rev,sp.pos[i])).join('');
+  bindPhotos();
+  const cards=[...spreadEl.querySelectorAll('.card')];
+  cards.forEach((el,i)=>setTimeout(()=>el.classList.add('flipped'),350+i*360));
+  flipBtn.disabled=false;copyBtn.disabled=false;
+  renderPay();renderSummary();
+  hintEl.textContent='依次翻开中……';
+  setTimeout(()=>{hintEl.textContent='点击任意牌可翻回背面';},350+cards.length*360+300);
+}
+
+function copyText(text){
+  const ok=()=>{hintEl.textContent='已复制到剪贴板';setTimeout(()=>{hintEl.textContent='点击任意牌可翻回背面';},2000);};
+  const fail=()=>{hintEl.textContent='复制失败，请手动选择文本';};
+  if(navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(text).then(ok,fail);
+    return;
+  }
+  // file:// 打开时剪贴板 API 不可用，走 execCommand 兜底
+  const ta=document.createElement('textarea');
+  ta.value=text;ta.style.position='fixed';ta.style.top='-9999px';
+  document.body.appendChild(ta);ta.focus();ta.select();
+  try{ document.execCommand('copy')?ok():fail(); }catch(e){ fail(); }
+  ta.remove();
+}
+
+function copyResult(){
+  const sp=SPREADS[curKey], q=getQuestion();
+  const head=`【塔罗师】无门塔罗\n`+(q?`【问题】${q}\n`:'')+`【牌阵】${sp.name}\n【时间】${new Date().toLocaleString('zh-CN')}\n`;
+  const list=current.map((p,i)=>{
+    const c=p.card;
+    return `${i+1}. ${sp.pos[i].t}｜${c.cn}（${p.rev?'逆位':'正位'}）：${p.rev?c.rev:c.up}`;
+  }).join('\n');
+  copyText(`${head}\n${list}`);
+}
+
+/* ============ 事件 ============ */
+selEl.addEventListener('change',()=>{
+  curKey=selEl.value;
+  spreadEl.innerHTML='';payEl.hidden=true;summaryEl.hidden=true;
+  flipBtn.disabled=true;copyBtn.disabled=true;current=[];
+  hintEl.textContent='已切换：'+SPREADS[curKey].name+'，点击抽牌';
+});
+qEl.addEventListener('input',()=>{ if(current.length) renderSummary(); });
+drawBtn.addEventListener('click',draw);
+flipBtn.addEventListener('click',()=>{
+  spreadEl.querySelectorAll('.card').forEach(el=>el.classList.add('flipped'));hintEl.textContent='已全部翻开';});
+copyBtn.addEventListener('click',copyResult);
+spreadEl.addEventListener('click',e=>{const c=e.target.closest('.card');if(c)c.classList.toggle('flipped');});
+qEl.addEventListener('keydown',e=>{ if(e.key==='Enter'&&!drawBtn.disabled) draw(); });
+</script>
+</body>
+</html>

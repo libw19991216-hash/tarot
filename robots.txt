@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /cards/
+Allow: /info/
