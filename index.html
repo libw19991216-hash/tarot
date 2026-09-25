@@ -121,8 +121,8 @@ button.ghost:hover:not(:disabled){color:var(--gold);box-shadow:none}
 .posdesc{font-size:11px;color:#8d83ab;text-align:center;line-height:1.5;max-width:200px;letter-spacing:.05em}
 
 .card{width:100%;max-width:min(220px,72vw);position:relative;perspective:1200px;cursor:pointer;
-  filter:drop-shadow(0 8px 20px rgba(0,0,0,.5))}
-.inner{position:relative;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.4,.1,.2,1)}
+  box-shadow:0 8px 20px rgba(0,0,0,.5)}
+.inner{position:relative;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.4,.1,.2,1)}
 .card.flipped .inner{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;border-radius:10px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
 .face.back{background:linear-gradient(160deg,#241640,#150c26);display:flex;align-items:center;justify-content:center}
